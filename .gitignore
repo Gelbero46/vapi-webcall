@@ -1,16 +1,4 @@
-# Frontend
-/frontend/node_modules
-/frontend/.env.local
-/frontend/.next
-/out
-
-# Backend
-/backend/.venv
-/backend/__pycache__/
-/backend/.env
-*.pyc
-
-# System files
-.DS_Store
+node_modules/
 .env
-*.log
+/frontend/.next/
+/backend/.venv/
