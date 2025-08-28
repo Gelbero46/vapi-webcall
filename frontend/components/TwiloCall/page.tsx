@@ -26,7 +26,7 @@ export default function VapiCall() {
     
     try {
       const AudioContextClass = window.AudioContext || (window as any).webkitAudioContext;
-      audioContextRef.current = new AudioContextClass({ sampleRate: 16000 });
+      audioContextRef.current = new AudioContextClass({ sampleRate: 32000 });
       
       if (audioContextRef.current.state === 'suspended') {
         await audioContextRef.current.resume();
